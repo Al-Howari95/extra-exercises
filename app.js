@@ -1,11 +1,11 @@
 //Q1
 
-1.  //27-
-2.  //value is50
-3.  // 2
-4.  //5
-5.  //0.5
-6.  //true
+1.   //27-
+2.   //value is50
+3.   // 2
+4.   //5
+5.   //0.5
+6.   //true
 7.   //true
 8.   //true
 
@@ -64,3 +64,68 @@ switch (numN)
    default:
        window.alert("PLEASE TRY AGAIN");
 }
+
+
+//7
+for(i = 0; i <=5 ; i++ )
+{
+alert(`${i}`);
+
+}
+
+
+
+//8
+let numbar8 ;
+for (let i = 0; i <= 5; i++) {
+    numbar8 += i; 
+}
+alert(numbar8);
+
+//9
+let n ;
+for(i = 0;i <= 20; i++)
+{
+n = i + 3;
+}
+alert(n);
+
+//10
+let numbar = prompt("Please enter between 0 and 100");
+while(numbar>100 || numbar<0)
+{
+   numbar=prompt("Plase again input")
+}
+window.alert(numbar); 
+
+//11
+let x = prompt("enter something");
+let y ;
+    if(isNaN(x)){
+    for (let i = x.length-1; i>=0; i--) {
+        y = y + x.charAt(i);
+    }
+    }
+    alert(y); 
+
+    //12
+sum = 0;
+let yo = prompt("entar nambar :");
+for(i = 0; i<= yo ; i++)
+{
+   sum = sum + i;
+}
+window.alert(yo); 
+
+//13
+sum = 0;
+let avg;
+let numb = prompt("entar nambar :");
+for(i =0; i<= numb; i++)
+{
+   sum = sum + i;
+
+}
+avg = sum / i;
+
+window.alert(avg);
